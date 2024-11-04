@@ -1,6 +1,6 @@
 # Volatile Cache DB
 
-Este projeto implementa um sistema de cache em memória utilizando a abordagem de cache volátil, permitindo a execução de operações de inserção, atualização e seleção em áreas específicas de um banco de dados simulado. A estrutura utiliza `ConcurrentHashMap` para garantir a segurança em ambientes de múltiplas threads.
+Este projeto implementa um sistema de cache em memória utilizando a abordagem de cache volátil, permitindo a execução de operações de inserção, atualização e seleção em áreas específicas de um banco de dados simulado. 
 
 ## Estrutura do Projeto
 
