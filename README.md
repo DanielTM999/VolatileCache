@@ -17,6 +17,7 @@ Este projeto implementa um sistema de cache em memória utilizando a abordagem d
     - `select(Class<T> element)`: Retorna uma instância de `SelectAreaQuery` para realizar consultas na área especificada.
     - `update(Class<T> element)`: Retorna uma instância de `UpdateAreaQuery` para realizar atualizações na área especificada.
     - `insert(Object entity)`: Retorna uma instância de `InsertAreaQuery` para inserir entidades em uma área.
+    - `delete(Class<T> element)`: Retorna uma instância de `DeleteAreaQuery` para realizar remoção em uma área especificada.
 
 - **SelectAreaQuery<T>**: Interface para executar consultas de seleção em uma área específica.
   
@@ -30,9 +31,29 @@ Este projeto implementa um sistema de cache em memória utilizando a abordagem d
   
 - **UpdateSet<T>**: Interface para realizar a atualização de entidades.
 
+- **DeleteAreaQuery<T>**: Interface para realizar a remoção de entidades.
+
 ## Como Usar
 
 1. **Instalação**: Certifique-se de ter o Java instalado em seu ambiente. Clone o repositório e compile o projeto.
+
+1.1 *apos clonar o repositorio*: Instale no repositório .m2
+
+```bash
+    mvn clean install
+```
+
+1.2 *apos instalar no repositorio .m2*: Adicione a dependência no pom.xml
+```xml
+    <dependencies>
+        <dependency>
+            <groupId>dmt.dynamic</groupId>
+            <artifactId>volatile_cache</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+```
+
 
 2. **Criando uma Instância do Cache**:
 
