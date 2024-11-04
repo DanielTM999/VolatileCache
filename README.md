@@ -1,6 +1,6 @@
 # Volatile Cache DB
 
-Este projeto implementa um sistema de cache em memória baseado em áreas, onde cada área pode conter diferentes tipos de dados armazenados temporariamente. Através de uma estrutura de cache volátil e threads seguras, o sistema permite operações de inserção, seleção, atualização e exclusão em "áreas" definidas no cache.
+Este projeto implementa um sistema de cache em memória com base em áreas, ideal para aplicações que precisam de acesso ágil e temporário a dados voláteis, ou seja, sem a necessidade de estruturação rígida. Sendo uma arquitetura de cache volátil e suportando operações thread-safe, é possível realizar operações de inserção, seleção, atualização e exclusão na memória, o que otimiza o desempenho ao remover o overhead de um banco de dados relacional. Cada “área” no cache pode conter diversos tipos de dados armazenados temporariamente, o que permite maior flexibilidade e rapidez ao acesso e manipulação. Essa abordagem é particularmente útil em cenários de alta performance, pois mantém os dados em memória e permite uma estrutura leve e eficiente para armazenamento e consulta. . 
 
 ## Estrutura do Projeto
 
