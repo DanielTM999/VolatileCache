@@ -35,7 +35,7 @@ Este projeto implementa um sistema de cache em memória utilizando a abordagem d
 
 ## Como Usar
 
-1. **Instalação**: Certifique-se de ter o Java instalado em seu ambiente. Clone o repositório e compile o projeto.
+1. **Instalação**: Certifique-se de ter o Java(17+) instalado em seu ambiente. Clone o repositório e compile o projeto.
 
 1.1 *apos clonar o repositorio*: Instale no repositório .m2
 
