@@ -1,4 +1,4 @@
-package dmt.dynamic.dbcache;
+package dtm.dynamic.dbcache;
 
 public class FilteredElement<T> {
     private final T element;

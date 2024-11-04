@@ -1,4 +1,4 @@
-package dmt.dynamic.dbcache.select;
+package dtm.dynamic.dbcache.select;
 
 
 import java.util.ArrayList;
@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;
 
-import dmt.dynamic.core.QueryCollectors;
-import dmt.dynamic.core.select.SelectWhereStruct;
+import dtm.dynamic.core.QueryCollectors;
+import dtm.dynamic.core.select.SelectWhereStruct;
 
 
 public class SelectWhereStructDb<T> implements SelectWhereStruct<T>{

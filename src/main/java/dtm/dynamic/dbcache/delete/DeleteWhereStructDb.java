@@ -1,10 +1,10 @@
-package dmt.dynamic.dbcache.delete;
+package dtm.dynamic.dbcache.delete;
 
 import java.util.List;
 import java.util.function.Predicate;
 
-import dmt.dynamic.core.delete.DeleteWhereStruct;
-import dmt.dynamic.dbcache.FilteredElement;
+import dtm.dynamic.core.delete.DeleteWhereStruct;
+import dtm.dynamic.dbcache.FilteredElement;
 
 public class DeleteWhereStructDb<T> implements DeleteWhereStruct<T> {
 

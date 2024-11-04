@@ -1,12 +1,12 @@
-package dmt.dynamic.dbcache.update;
+package dtm.dynamic.dbcache.update;
 
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import dmt.dynamic.core.update.UpdateAreaQuery;
-import dmt.dynamic.core.update.UpdateWhereStruct;
-import dmt.dynamic.dbcache.FilteredElement;
+import dtm.dynamic.core.update.UpdateAreaQuery;
+import dtm.dynamic.core.update.UpdateWhereStruct;
+import dtm.dynamic.dbcache.FilteredElement;
 
 public class UpdateAreaQueryDb<T> implements UpdateAreaQuery<T>{
 

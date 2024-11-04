@@ -1,9 +1,9 @@
-package dmt.dynamic.core;
+package dtm.dynamic.core;
 
-import dmt.dynamic.core.delete.DeleteAreaQuery;
-import dmt.dynamic.core.insert.InsertAreaQuery;
-import dmt.dynamic.core.select.SelectAreaQuery;
-import dmt.dynamic.core.update.UpdateAreaQuery;
+import dtm.dynamic.core.delete.DeleteAreaQuery;
+import dtm.dynamic.core.insert.InsertAreaQuery;
+import dtm.dynamic.core.select.SelectAreaQuery;
+import dtm.dynamic.core.update.UpdateAreaQuery;
 
 public interface VolatileCache {
    <T> SelectAreaQuery<T> select(Class<T> element);

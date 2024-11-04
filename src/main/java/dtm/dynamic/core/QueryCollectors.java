@@ -1,4 +1,4 @@
-package dmt.dynamic.core;
+package dtm.dynamic.core;
 
 import java.util.List;
 import java.util.Optional;

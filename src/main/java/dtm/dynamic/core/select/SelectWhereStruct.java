@@ -1,7 +1,7 @@
-package dmt.dynamic.core.select;
+package dtm.dynamic.core.select;
 
 import java.util.function.Predicate;
-import dmt.dynamic.core.QueryCollectors;
+import dtm.dynamic.core.QueryCollectors;
 
 public interface SelectWhereStruct<T> {
     QueryCollectors<T> where(Predicate<T> predicate);

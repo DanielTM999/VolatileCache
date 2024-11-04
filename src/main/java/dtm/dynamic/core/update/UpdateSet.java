@@ -1,4 +1,4 @@
-package dmt.dynamic.core.update;
+package dtm.dynamic.core.update;
 
 import java.util.function.Consumer;
 

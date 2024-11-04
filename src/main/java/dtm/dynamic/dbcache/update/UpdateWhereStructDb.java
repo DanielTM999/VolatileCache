@@ -1,11 +1,11 @@
-package dmt.dynamic.dbcache.update;
+package dtm.dynamic.dbcache.update;
 
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
-import dmt.dynamic.core.update.UpdateSet;
-import dmt.dynamic.core.update.UpdateWhereStruct;
-import dmt.dynamic.dbcache.FilteredElement;
+import dtm.dynamic.core.update.UpdateSet;
+import dtm.dynamic.core.update.UpdateWhereStruct;
+import dtm.dynamic.dbcache.FilteredElement;
 
 
 public class UpdateWhereStructDb<T> implements UpdateWhereStruct<T>{

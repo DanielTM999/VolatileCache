@@ -1,4 +1,4 @@
-package dmt.dynamic.core.delete;
+package dtm.dynamic.core.delete;
 
 import java.util.function.Predicate;
 

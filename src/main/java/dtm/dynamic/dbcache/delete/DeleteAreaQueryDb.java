@@ -1,11 +1,11 @@
-package dmt.dynamic.dbcache.delete;
+package dtm.dynamic.dbcache.delete;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import dmt.dynamic.core.delete.DeleteAreaQuery;
-import dmt.dynamic.core.delete.DeleteWhereStruct;
-import dmt.dynamic.dbcache.FilteredElement;
+import dtm.dynamic.core.delete.DeleteAreaQuery;
+import dtm.dynamic.core.delete.DeleteWhereStruct;
+import dtm.dynamic.dbcache.FilteredElement;
 
 public class DeleteAreaQueryDb<T> implements DeleteAreaQuery<T>{
 

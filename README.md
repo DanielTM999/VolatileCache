@@ -47,7 +47,7 @@ Este projeto implementa um sistema de cache em memória com base em áreas, idea
 ```xml
     <dependencies>
         <dependency>
-            <groupId>dmt.dynamic</groupId>
+            <groupId>dtm.dynamic</groupId>
             <artifactId>volatile_cache</artifactId>
             <version>1.0.0</version>
         </dependency>

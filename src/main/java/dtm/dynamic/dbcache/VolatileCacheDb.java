@@ -1,17 +1,17 @@
-package dmt.dynamic.dbcache;
+package dtm.dynamic.dbcache;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import dmt.dynamic.core.VolatileCache;
-import dmt.dynamic.core.delete.DeleteAreaQuery;
-import dmt.dynamic.core.insert.InsertAreaQuery;
-import dmt.dynamic.core.select.SelectAreaQuery;
-import dmt.dynamic.core.update.UpdateAreaQuery;
-import dmt.dynamic.dbcache.delete.DeleteAreaQueryDb;
-import dmt.dynamic.dbcache.select.SelectAreaQueryDb;
-import dmt.dynamic.dbcache.update.UpdateAreaQueryDb;
+import dtm.dynamic.core.VolatileCache;
+import dtm.dynamic.core.delete.DeleteAreaQuery;
+import dtm.dynamic.core.insert.InsertAreaQuery;
+import dtm.dynamic.core.select.SelectAreaQuery;
+import dtm.dynamic.core.update.UpdateAreaQuery;
+import dtm.dynamic.dbcache.delete.DeleteAreaQueryDb;
+import dtm.dynamic.dbcache.select.SelectAreaQueryDb;
+import dtm.dynamic.dbcache.update.UpdateAreaQueryDb;
 
 public class VolatileCacheDb implements  VolatileCache{
 

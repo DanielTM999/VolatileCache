@@ -1,4 +1,4 @@
-package dmt.dynamic.core.delete;
+package dtm.dynamic.core.delete;
 
 public interface DeleteAreaQuery<T>{
     DeleteWhereStruct<T> from(String area);
